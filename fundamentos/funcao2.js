@@ -22,4 +22,3 @@ console.log(subtracao(2,3))
 // Se consegue também atribuir um valor de string para cima dessa sintaxe, como no exemplo abaixo
 const imprimir2 = a => console.log(a)
 imprimir2("legal !!!") 
-
