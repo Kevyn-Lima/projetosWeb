@@ -10,3 +10,5 @@ console.log(JSON.stringify(obj)) // não foi passado a função, por ser uma tra
 console.log(JSON.parse('{"a": 1, "b": 2, "c":3 }'))
 
 console.log(JSON.parse('{"a": 1, "b": "string", "c": true, "d": {}, "e": []}'))
+
+
