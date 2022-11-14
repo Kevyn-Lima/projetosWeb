@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <form action="" name="FormConcat" method="post">
+        Escreva seu nome: <input type="text" name="f_nome" > <br>
+        Escreva seu sobrenome: <input type="text" name="f_sobrenome" ><br> 
+        <input type="button" name="btn_concat" value="concatenar" onclick="concatenar()">
+        <input type="reset" name="btn_cancelar" value="resetar">
+    </form>
+    <script language="JavaScript">
+
+        function concatenar(){
+            var nome, sobrenome, nomeCompleto;
+
+            nome = document.FormConcat.f_nome.value;
+
+            sobrenome = document.FormConcat.f_sobrenome.value;
+
+            nomeCompleto = nome + ' ' + sobrenome
+
+            alert('Olá ' + nomeCompleto)          
+        }
+        
+    </script>    
+</body>
+</html>
